@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashScreen"
+    android:content="@color/white">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="226dp"
+        android:layout_height="243dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="595dp"
+        android:gravity="center"
+        android:src="@drawable/twitter_font" />
+
+
+</RelativeLayout>
